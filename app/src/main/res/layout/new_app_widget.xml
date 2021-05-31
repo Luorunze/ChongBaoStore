@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/ThemeOverlay.ChongBaoStore.AppWidgetContainer">
+
+    <ImageView
+        android:src="@drawable/dog"
+        android:id="@+id/widget_img"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/widget_name"
+        android:textSize="40sp"
+        android:text="账户名称：毛也"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/widget_img"/>
+    <TextView
+        android:textSize="40sp"
+        android:text="账户号：123456"
+        android:id="@+id/widget_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/widget_name"/>
+</RelativeLayout>

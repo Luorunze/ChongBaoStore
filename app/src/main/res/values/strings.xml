@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ChongBaoStore</string>
+    <string name="title_home">商品</string>
+    <string name="title_dashboard">天气</string>
+    <string name="title_notifications">设置</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="settings_short_name">登录</string>
+    <string name="settings_long_name">点击进行登录</string>
+    <string name="settings_disable_msg">不可用</string>
+</resources>

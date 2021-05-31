@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+    <EditText
+        android:layout_marginTop="230dp"
+        android:background="@drawable/translucent"
+        android:id="@+id/register_name"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="在此输入帐号"/>
+    <EditText
+        android:background="@drawable/translucent"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/register_name"
+        android:id="@+id/register_pwd_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="在此输入密码"/>
+
+    <EditText
+        android:background="@drawable/translucent"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/register_pwd_one"
+        android:id="@+id/register_pwd_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="在此重复密码"/>
+
+
+    <com.github.clans.fab.FloatingActionButton
+        android:layout_marginTop="100dp"
+        app:fab_colorNormal="#1565C0"
+        android:layout_below="@+id/register_pwd_two"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/right"
+        app:fab_label="登录"/>
+
+</RelativeLayout>
